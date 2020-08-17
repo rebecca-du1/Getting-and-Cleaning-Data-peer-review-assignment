@@ -4,3 +4,5 @@ column 2 is activity type, with "walking","walking_upstairs","walking_downstairs
 column 3:68: mean and standard divation of measurement, of different feature.
 variable name is according to "features" document.
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. "
+"The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity.
+The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used."
