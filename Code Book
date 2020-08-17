@@ -3,6 +3,11 @@ column 1 is indicidual _id, from 1:30, indicate 30 participants
 column 2 is activity type, with "walking","walking_upstairs","walking_downstairs","sitting","standing","laying"
 column 3:68: mean and standard divation of measurement, of different feature.
 variable name is according to "features" document.
-"The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. "
-"The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity.
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+The sensor acceleration signal, which has gravitational and body motion components, use gravity and body before acc to represent.
+t and f at the front, t stand for time, and f stand for frequency.
+XYZ represent 3-axial signals 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
 The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used."
