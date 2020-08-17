@@ -1,0 +1,6 @@
+column 1 & 2: factor variable
+column 1 is indicidual _id, from 1:30, indicate 30 participants
+column 2 is activity type, with "walking","walking_upstairs","walking_downstairs","sitting","standing","laying"
+column 3:68: mean and standard divation of measurement, of different feature.
+variable name is according to "features" document.
+"The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. "
